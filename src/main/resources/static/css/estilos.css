@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SF Pro Display;
+    padding: 90px 20px 0;
+}
+
+.header{
+    background-color: #1C071A;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: #AF11F5;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 12vh;
+    padding: 0 40px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 12vh;
+    text-align: center;
+}
+
+.nav-menu-item:hover{
+    background-color: #990099;
+    transition: 0.5s
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 4px;
+
+}
+
+.descripcion {
+    font-size: 18px;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 88%;
+    width: 100%;
+    background-color: #AF11F5;
+    color: black;
+    overflow: auto;
+    padding: 0 20px;
+}
+#piePagina {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: #1C071A;
+    color: #AF11F5;
+    text-align: center;
+}
